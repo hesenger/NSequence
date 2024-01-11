@@ -4,6 +4,11 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>NSequence</PackageId>
+    <Version>1.0.2</Version>
+    <Authors>Heber Senger</Authors>
+    <PackageProjectUrl>https://github.com/hesenger/NSequence</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
 </Project>

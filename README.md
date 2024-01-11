@@ -11,6 +11,10 @@ having to inject a service or repository.
 
 ## Usage
 
+```bash
+dotnet add package NSequence
+```
+
 ```csharp
 // initialized once at application startup
 var connectionProvider = new SqlServerDatabaseProvider();
