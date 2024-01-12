@@ -2,7 +2,7 @@ using System.Data;
 
 namespace NSequence;
 
-public interface IDbConnectionProvider
+public interface IConnectionProvider
 {
     IDbConnection GetConnection();
 }

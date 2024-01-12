@@ -8,7 +8,7 @@ public class SequenceShould
     [Fact]
     public void GenerateUniqueSequencialNumbers()
     {
-        var connectionProvider = new SqlServerDatabaseProvider();
+        var connectionProvider = new SqlServerConnectionProvider();
         var sequence = new Sequence(connectionProvider, "Person");
 
         var list = new List<int>();

@@ -12,7 +12,7 @@ public class SqlServerFixture
 
     private void CreateHiLoTable()
     {
-        using var connection = new SqlServerDatabaseProvider().GetConnection();
+        using var connection = new SqlServerConnectionProvider().GetConnection();
         connection.Open();
 
         using var command = connection.CreateCommand();

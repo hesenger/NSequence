@@ -15,7 +15,7 @@ public class SequenceGeneratorShould
     [Fact]
     public void GenerateUniqueSequencialNumbers()
     {
-        var connectionProvider = new SqlServerDatabaseProvider();
+        var connectionProvider = new SqlServerConnectionProvider();
         SequenceGenerator.ConnectionProvider = connectionProvider;
 
         SequenceGenerator.Next("Person").ShouldBeGreaterThan(0);

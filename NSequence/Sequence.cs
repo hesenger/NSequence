@@ -2,13 +2,13 @@
 
 public class Sequence
 {
-    private readonly IDbConnectionProvider _connectionProvider;
+    private readonly IConnectionProvider _connectionProvider;
     private readonly string _sequenceName;
     private int MaxLo = 100;
     private int _currentLo;
     private int _currentHi;
 
-    public Sequence(IDbConnectionProvider connectionProvider, string sequenceName)
+    public Sequence(IConnectionProvider connectionProvider, string sequenceName)
     {
         _connectionProvider = connectionProvider;
         _sequenceName = sequenceName;

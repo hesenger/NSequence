@@ -2,7 +2,7 @@ namespace NSequence;
 
 public static class SequenceGenerator
 {
-    public static IDbConnectionProvider? ConnectionProvider { get; set; }
+    public static IConnectionProvider? ConnectionProvider { get; set; }
     private static readonly Dictionary<string, Sequence> _sequences = new();
 
     public static int Next(string sequenceName)
